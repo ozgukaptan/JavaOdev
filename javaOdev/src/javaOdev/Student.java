@@ -3,7 +3,7 @@ package javaOdev;
 public class Student {
 
 	public Student() {
-		System.out.println("paremetre almayan kurucu metod çalýþtý");
+		System.out.println("paremetre almayan kurucu metod çalýþtý????");
 	}
 
 	public Student(int id, String firstName,String lastName, String email, String password) {

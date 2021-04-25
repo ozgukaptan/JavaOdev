@@ -17,6 +17,20 @@ public class Main {
 		
 		Student[] studends = {student1,student2};
 		
+		
+		Course course1 = new Course(1,"java kursu",1);
+		
+		Course course2 = new Course();
+		course2.id = 1;
+		course2.name = "c# kursu";
+		course2.teacherId = 1;
+		
+		Course[] courses = {course1,course2};
+		
+		for (Course course : courses) {
+			System.out.println(course.name);
+		}
+		
 		for (Student student : studends) {
 			System.out.println(student.firstName);
 		}
